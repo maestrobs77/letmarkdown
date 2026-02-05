@@ -1,0 +1,34 @@
+.split {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.gutter {
+  background-color: #e5e7eb;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transition: background-color 0.15s ease;
+}
+
+.gutter:hover {
+  background-color: #d1d5db;
+}
+
+.gutter.gutter-horizontal {
+  cursor: col-resize;
+}
+
+.gutter.gutter-vertical {
+  cursor: row-resize;
+}
+
+/* Dark mode */
+.dark-mode .gutter {
+  background-color: #3c3c3c;
+}
+
+.dark-mode .gutter:hover {
+  background-color: #505050;
+}
