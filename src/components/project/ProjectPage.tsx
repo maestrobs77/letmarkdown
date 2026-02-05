@@ -27,7 +27,7 @@ import {
   VscFolderOpened,
   VscNewFile,
   VscNewFolder,
-  VscPeople,
+  VscOrganization,
   VscRocket,
   VscSettings,
 } from "react-icons/vsc";
@@ -181,7 +181,7 @@ export default function ProjectPage() {
             <Tooltip label="Team Members">
               <IconButton
                 aria-label="Members"
-                icon={<VscPeople />}
+                icon={<VscOrganization />}
                 onClick={membersModal.onOpen}
                 variant="ghost"
                 size="sm"

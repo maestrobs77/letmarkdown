@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { Box } from "@chakra-ui/react";
 import MarkdownIt from "markdown-it";
-import emoji from "markdown-it-emoji";
+import * as emoji from "markdown-it-emoji";
 import footnote from "markdown-it-footnote";
 import sup from "markdown-it-sup";
 import sub from "markdown-it-sub";
